@@ -68,10 +68,10 @@ public class User implements UserDetails {
         return List.of(new SimpleGrantedAuthority("ROLE_" + role.name()));
     }
 
-    @Override
-    public @Nullable String getPassword() {
-        return "";
-    }
+//    @Override
+//    public @Nullable String getPassword() {
+//        return "";
+//    }
 
     @Override
     public String getUsername() {
